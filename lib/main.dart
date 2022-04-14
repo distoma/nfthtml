@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nftminthtml/Screens/Welcome/welcome_screen.dart';
-import 'package:nftminthtml/constants.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,10 +12,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Auth',
       theme: ThemeData(
-        primaryColor: kPrimaryColor,
+        primaryColor: Colors.amberAccent,
         scaffoldBackgroundColor: Colors.white,
       ),
-      home: WelcomeScreen(),
+      home: Scaffold(),
     );
   }
 }
